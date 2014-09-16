@@ -1,19 +1,22 @@
 {
   "name": "bootstrap-modal-carousel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     "Aurélien MANCA <aurelien@amanca.fr>"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
+    "Gruntfile.js",
     "bower_components",
+    "dist",
+    "node_modules",
+    "package.json",
+    "src/templates",
     "test",
-    "tests",
-    "dist"
+    "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "~3.1.1",
     "holderjs": "~2.3.1"
   },
